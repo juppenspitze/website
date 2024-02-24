@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --secondary-glow: conic-gradient(
+        from 10deg at 50% 50%,
+        #eb7494 0deg,
+        #ae77b2 55deg,
+        #97b5da 120deg,
+        #0099ca 160deg,
+        transparent 360deg
+  );
+    
+    --third-glow: conic-gradient(
+        from 90deg at 50% 50%,
+        #ff8b7e 0deg,
+        #e24e6b 160deg,
+        #7ed2da 120deg,
+        #8bdce0 55deg,
+        transparent 360deg
+      );
+}
+
+html {
+    background: linear-gradient(90deg,#161616 17px,transparent 1%) 50%,linear-gradient(#161616 17px,transparent 1%) 50%,#3d3d3d!important;
+    background-size: 18px 18px!important;
+    color: #DCDCDC
+}
+
+img {
+    @apply block w-auto h-full max-h-[350px] mx-auto self-start !important;
+    @apply rounded-lg;
+}
+img.productImage {
+    @apply max-h-[530px] h-full w-[revert-layer] !important;
+}
+img.scrollProductImage {
+    @apply relative p-0.5 !important;
+}
+label{
+    @apply text-gray-600 text-sm;
+}
+.btn-primary{
+    @apply bg-primary text-white px-4 py-1 rounded-sm shadow-sm;
+}
+table.basic{
+    @apply w-full bg-white rounded-sm shadow-md;
+}
+table.basic thead tr td,
+table.basic thead tr th
+{
+    @apply text-sm text-gray-600 uppercase border-b border-gray-200 px-4 py-2;
+}
+table.basic tr td{
+    @apply px-4 py-1;
+}
+table.basic a{
+    @apply px-4 rounded-sm inline-flex mx-1 items-center gap-1 text-sm py-1;
+}
+.btn-default, .btn-red{
+    @apply px-4 py-1 rounded-md;
+}
+.btn-red{
+    @apply bg-red-200 text-red-600 px-4 py-1 rounded-sm shadow-sm;
+}
+.btn-default{
+    @apply bg-white text-gray-800 px-4 py-1 rounded-sm border border-gray-200 shadow-sm;
+}
+
+.backgroun-dotted {
+    background: linear-gradient(90deg,#161616 17px,transparent 1%) 50%,linear-gradient(#161616 17px,transparent 1%) 50%,#3d3d3d;
+    background-size: 18px 18px;
+}
+
+section > button {
+    @apply hidden !important;
+}
+
+.lightBulb::before,
+.lightBulb::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  opacity:0.8;
+  transition: all 0.5s ease-in-out;
+}
+
+.lightBulb::before {
+    background: var(--third-glow);
+    border-radius: 50%;
+    width: 55vw;
+    height: 50vh;
+    filter:blur(80px);  
+    top: calc(50vh - 50vw/2);
+    left: calc(50vw - 55vw/2);
+    animation: fadeInOut 9s ease-in-out infinite;
+}
+  
+.lightBulb::after {
+    background: var(--secondary-glow);
+    border-radius: 50%;
+    width: 45vw;
+    height: 50vh;
+    filter:blur(80px);
+    top: calc(50vh - 50vh/2);
+    left: calc(50vw - 45vw/2);
+    animation: fadeInOut 10s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.blurred {
+    backdrop-filter: blur(40px);
+};
+

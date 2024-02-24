@@ -1,0 +1,305 @@
+{
+  "Buttons": {
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "delete_property": "Eigenschaft löschen",
+    "delete_vat": "MwSt. löschen",
+    "save": "Speichern",
+    "send": "Senden",
+    "cancel": "Abbrechen",
+    "deprecate": "Missbilligen",
+    "undeprecate": "Missbilligung aufheben",
+    "print": "Drucken",
+    "download_invoice": "Rechnung herunterladen",
+    "back": "Zurück",
+    "email": "Email schicken",
+    "add_new": "Neue{name, select, admin {n Admin} product {s Produkt} category { Kategorie} author {n Autor} featured {s vorgestelltes Product} shipment_method { Versandart} profile {s Profil} country {s Land} other {}} hinzufügen",
+    "show_deprecated": "Veraltete {name, select, products {Produkte} categories {Kategorien} authors {Autoren} other {}} anzeigen"
+  },
+
+
+  "LocaleSwitcher": {
+    "switchLocale": "{locale, select, de {Deutsch} en {Englisch} at {Österreichisch} other {{locale}}}"
+  },
+  "DragAndDrop": {
+    "drag_and_drop_or": "Drag & drop oder",
+    "select_files": "Dateien auswählen",
+    "to_upload": "zum Hochladen",
+    "uploading": "Hochladen...",
+    "reached_maximum": "Maximale Anzahl Dateien erreicht.",
+    "accepted_file_types": "Akzeptierte Dateitypen: {types}"
+  },
+  "RichText": {
+    "rich_description": "Geben Sie Rich-Text ein...",
+    "link_description": "Um einen Link hinzuzufügen, wählen Sie den Text aus und fügen Sie den Link ein. Doppelklicken Sie, um den Link zu überprüfen."
+  },
+  "TagsInput": {
+    "enter_tags_here": "Tags hier eingeben",
+    "description": "Drücken Sie die Eingabetaste oder das Komma, um ein neues Tag hinzuzufügen."
+  },
+  "Nav": {
+    "products": "Produkte",
+    "categories": "Kategorien",
+    "orders": "Bestellungen",
+    "authors": "Autoren:innen",
+    "settings": "Einstellungen",
+    "close_menu": "Menü schließen",
+    "open_menu": "Menü öffnen"
+  },
+  "Table": {
+    "ColumnNames": {
+      "name": "Name",
+      "description": "Beschreibung",
+      "price": "Preis",
+      "stock": "Lagerbestand",
+      "size": "Größe",
+      "author": "Autor:in",
+      "actions": "Aktionen",
+      "parent": "Übergeordnete Kategorie",
+      "state": "Status",
+      "date": "Datum",
+      "creation_date": "Erstellungsdatum",
+      "paid": "Bezahlt",
+      "recipient": "Empfänger:in",
+      "products": "Produkte",
+      "image": "Bild",
+      "google_email": "Google Email",
+      "countries": "Länder",
+      "profiles": "Profile"
+    },
+    "Empties": {
+      "no_name": "Kein Name",
+      "no_email": "Keine Email",
+      "no_description": "Keine Beschreibung",
+      "no_country": "Kein Land",
+      "no_city": "Keine Stadt",
+      "no_street": "Keine Straße",
+      "no_code": "Kein Code",
+      "not_set": "Nicht gesetzt"
+    },
+    "no_data": "Keine Daten verfügbar",
+    "rows_per_page": "Zeilen pro Seite:",
+    "no_parent_item": "Keine übergeordnete Kategorie",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "HomeStats": {
+    "revenue": "Umsatz",
+    "orders": "Bestellungen",
+    "orders_today": "Bestellungen heute",
+    "orders_this_week": "Bestellungen diese Woche",
+    "orders_this_month": "Bestellungen diesen Monat",
+    "today": "Heute",
+    "this_week": "Diese Woche",
+    "this_month": "Diesen Monat"
+  },
+  "Offline": {
+    "you_are_offline": "Sie sind offline",
+    "check_connection": "Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
+  },
+  
+
+  "Modal": {
+    "delete": "Löschen",
+    "delete_description": "Sind Sie sicher, dass Sie {name, select, author {diesen Autor} admin {diesen Admin} category {diese Kategorie} country {dieses Land} product {dieses Produkt} shipment_profile {dieses Versandprofil} featured {dieses vorgestellte Produkt} other {}} löschen möchten?",
+    "deprecate": "Missbilligen",
+    "deprecate_description": "Sind Sie sicher, dass Sie {name, select, author {diesen Autor} category {diese Kategorie} country {dieses Land} shipment_profile {dieses Versandprofil} other {}} missbilligen möchten?",
+    "edit": "Bearbeiten",
+    "add_new": "Neue{name, select, admin {n Admin} product {s Produkt} category { Kategorie} author {n Autor} featured {s vorgestelltes Product} shipment_method { Versandart} profile {s Profil} country {s Land} other {}} hinzufügen",
+    "refer_to_docs": "Weitere Informationen finden Sie in den Doks.",
+
+    "name": "{name, select, author {Autorenname} product {Produktname} category {Kategoriename} country {Ländername} shipment_profile {Versandprofilname} other {}}",
+    "description": "{name, select, author {Autorbeschreibung} product {Produktbeschreibung} category {Kategoriebeschreibung} country {Länderbeschreibung} shipment_profile {Versandprofilbeschreibung} featured {Vorgestellte Produktbeschreibung} other {}}",
+    "price": "{name, select, product {Produktpreis} other {}}",
+    "stock": "{name, select, product {Produktlagerbestand} other {}}",
+    "author": "{name, select, product {Produktautor} other {}}",
+    "tags": "{name, select, product {Produkttags} other {}}",
+    "parent": "{name, select, category {Übergeordnete Kategorie} other {}}",
+    "select_properties": "Eigenschaften auswählen",
+    "input_properties": "Eingabeeigenschaften",
+    "tester": "Tester",
+    "e_version": "E-Version",
+
+    "category": "Kategorie",
+    "category_deprecated": "Die Kategorie ist veraltet",
+    "author_deprecated": "Der Autor ist veraltet",
+    "e_item": "E-Item",
+    "shipment_profile": "Versandprofil",
+    "dimentions": "(Abmessungen)",
+
+    "is_electronic": "Ist das Produkt NUR elektronisch?",
+    "yes": "Ja",
+    "no": "Nein",
+    "electronic_product_description": "Es ist nur elektronisch. Es gibt kein echtes Produkt (z. B. Hardcover-Buch).",
+    "not_electronic_product_description": "Es ist nicht nur elektronisch. Ein Kunde kann ein echtes Produkt kaufen.",
+    "file": "{amount, select, 1 {Datei} other {Dateien}}",
+    "incorrect_email": "Falsche Email",
+    "generics": "Algemein"
+  },
+
+  "Login": {
+    "welcome_back": "Willkommen zurück!",
+    "email": "Email",
+    "password": "Passwort",
+    "your_email": "Ihre Email",
+    "your_password": "Ihr Passwort",
+    "or": "oder",
+    "login_with_google": "Mit Google anmelden",
+    "invalid_credentials": "Ungültige Anmeldeinformationen."
+  },
+  "Orders": {
+    "filter_by_status": "Nach Status filtern",
+
+    "payment_and_shipment_status": "Zahlungs-/Versandstatus der Bestellung",
+    "shipment_status": "Versandstatus",
+    "payment_status": "Zahlungsstatus",
+    "paid": "Bezahlt",
+    "paid_description": "Das Geld für diese Bestellung befindet sich auf Ihrem Bankkonto.",
+    "not_paid": "Nicht bezahlt",
+    "not_paid_description": "Das Geld für diese Bestellung ist nicht eingegangen.",
+    "customer_name": "Kundenname",
+    "shipment_address": "Lieferadresse",
+    "billing_address": "Rechnungsadresse",
+    "shipment_method": "Versandart",
+    "email": "Email",
+    "phone_number": "Telefonnummer",
+    "products_ordered": "Bestellte Produkte",
+    "ordered_on": "Bestellt am",
+    "payment_method": "Zahlungsmethode",
+
+    "Statuses": {
+      "processing": "In Bearbeitung",
+      "processing_description": "Die Bestellung wird aufgegeben und bezahlt.",
+      "packed": "Verpackt",
+      "packed_description": "Die Bestellung ist verpackt und versandbereit.",
+      "shipped": "Versendet",
+      "shipped_description": "Die Bestellung wird versendet und auf dem Weg zum Käufer!"
+    },
+    "Email": {
+      "reciever": "Empfänger:in",
+      "subject": "Betreff",
+      "subject_description": "Schreiben Sie den Betreff Ihrer E-Mail",
+      "message": "Nachricht",
+      "include_invoice": "Rechnung beifügen",
+      "send_email_to": "Schicken ein Email an",
+      "attachments": "Anhänge"
+    }
+  },
+  "Categories": {
+    "name": "Kategoriename",
+    "name_placeholder": "Geben Sie den Kategorienamen ein",
+    "parent_category": "Übergeordnete Kategorie",
+    "parent_properties_from": "Übergeordnete Eigenschaften aus",
+    "category": "Kategorie",
+
+    "property_name": "Eigenschaftsname",
+    "values": "Werte",
+    "type": "Typ",
+
+    "input_properties": "Eingabeeigenschaften",
+    "selection_properties": "Auswahleigenschaften",
+    "select_property_type": "Wählen Sie den Eigenschaftstyp aus",
+    "own_selection_properties": "Eigene Auswahl",
+    "own_input_properties": "Eigene Eingabe",
+    "add_selection_property": "Fügen Sie eine neue eigene Auswahleigenschaft hinzu",
+    "add_input_property": "Neue eigene Eingabeeigenschaft hinzufügen",
+    "vat_placeholder": "Geben Sie die Mehrwertsteuer ein",
+    "vat_percentages": "Mehrwertsteuersätze",
+    "percentage": "Prozentsatz",
+    "country": "Land",
+    "select_country": "Land auswählen",
+    "add_vat": "Mehrwertsteuer hinzufügen",
+
+    "selection_name_placeholder": "Eigenschaftsname (z. B. Farbe)",
+    "selection_value_placeholder": "Werte, durch Kommas getrennt (z. B. rot, schwarz)",
+    "input_name_placeholder": "Eigenschaftsname (z. B. Seitenzahl)",
+
+    "described_all_countries": "Sie haben alle vorhandenen Länder beschrieben.",
+    "described_all_categries": "Sie haben alle vorhandenen Kategorien beschrieben.",
+
+    "InputTypes": {
+      "text": "Text",
+      "number": "Nummer",
+      "date": "Datum",
+      "textarea": "Textbereich",
+      "select": "Auswahl",
+      "checkbox": "Checkbox",
+      "radio": "Radio"
+    }
+  },
+  "Settings": {
+    "admins": "Admins",
+    "admins_description": "Fügen Sie E-Mails hinzu und entfernen Sie sie, die auf das Admin-Panel und alle seine Funktionen zugreifen können.",
+    "featured": "Vorgestellt",
+    "featured_description": "Verwalten Sie vorgestellte Produkte und die Reihenfolge, in der sie in der Diashow auf der Startseite angezeigt werden.",
+    "shipping": "Lieferung",
+    "shipping_description": "Verwalten Sie Versandoptionen und -profile, aus denen Kunden beim Bezahlvorgang auswählen können.",
+    "email_templates": "Email-Vorlagen",
+    "email_templates_description": "Verwalten Sie E-Mail-Vorlagen, die während des Kaufvorgangs an Kunden gesendet werden.",
+    "docs": "Doks",
+    "docs_description": "Alle möglichen nützlichen Dinge über die App :D"
+  },
+  "Featured": {
+    "read_more": "Mehr lesen",
+    "add_to_cart": "In den Warenkorb legen",
+    "mock_description": "Wählen Sie ein Produkt aus, das Sie vorstellen möchten, und sehen Sie sich hier dessen Titel, Beschreibung und Bild an.",
+    "featured_title": "Vorgestellte Titel",
+    "no_image_here": "Kein Bild hier",
+
+    "select_product": "Produkt auswählen",
+    "give_it_description": "",
+    "add_background_image": "Hintergrundbild hinzufügen",
+    "character_limit_reached": "Zeichenlimit erreicht.",
+    "all_products_already_featured": "Alle Produkte sind bereits vorgestellt!",
+    "no_featured_yet": "Noch keine vorgestellten Produkte!"
+  },
+  "Shipping": {
+    "countries": "Länder",
+    "create_new_country": "Neues Land erstellen",
+    "Profiles": {
+      "shipment_profiles": "Versandprofile",
+      "create_new_profile": "Neues Profil erstellen",
+      "dimentions": "Abmessungen",
+      "size_chart": "Größentabelle",
+
+      "shipment_profile_name": "Versandprofilname",
+      "shipment_profile_name_description": "Name des Sendungsprofils (z. B. Klein)",
+      "shipment_profile_description": "Versandprofilbeschreibung",
+      "shipment_profile_descr_descr": "Beschreibung des Sendungsprofils (z. B. für kleine Pakete)",
+
+      "weight": "{size, select, min {Min} max {Max} other {}} Gewicht",
+      "weight_description": "Das {size} Gewicht des Produkts in Kg.",
+      "width": "{size, select, min {Min} max {Max} other {}} Breite",
+      "width_description": "Die {size} Breite des Produkts in cm.",
+      "height": "{size, select, min {Min} max {Max} other {}} Höhe",
+      "height_description": "Die {size} Höhe des Produkts in cm.",
+      "depth": "{size, select, min {Min} max {Max} other {}} Tiefe",
+      "depth_description": "Die {size} Tiefe des Produkts in cm.",
+
+      "sort_the_profiles": "Sortieren Sie das erstellte Profil unter anderem nach Größe.",
+      "sort_description": "Es sollte vom Kleinsten zum Größten gehen."
+    },
+    "Methods": {
+      "shipment_methods": "Versandarten",
+
+      "shipment_method_name": "Versandartname",
+      "shipment_method_name_description": "Name der Versandart (z. B. DHL)",
+      "shipment_method_description": "Versandartbeschreibung",
+      "shipment_method_descr_descr": "Beschreibung der Versandart. Es wird für den Kunden während des Bezahlvorgangs sichtbar sein.",
+
+      "countries": "Länder",
+      "shipment_country": "Versandland",
+      "base_price": "Grundpreis",
+      "base_price_description": "Grundpreis für dieses {name, select, profile {Profil} country {Land} other {}}",
+      "described_all_countries": "Sie haben alle vorhandenen Länder beschrieben.",
+      "deprecated": "Veraltet",
+
+      "shipment_profiles": "Versandprofile",
+      "shipment_profile": "Versandprofil",
+      "described_all_profiles": "Sie haben alle vorhandenen Versandprofile beschrieben."
+    }
+  },
+  "Docs": {
+    "nothing_here": "Hier ist noch nichts :D"
+  }
+}

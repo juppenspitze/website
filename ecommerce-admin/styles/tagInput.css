@@ -1,0 +1,12 @@
+/* mainly coppied from the NextUi input component */
+.rti--container {
+  @apply relative w-full inline-flex tap-highlight-transparent shadow-sm bg-default-100 data-[hover=true]:bg-default-200 group-data-[focus=true]:bg-default-100 rounded-small border-none items-center gap-2 transition-background motion-reduce:transition-none !duration-150 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background min-h-[3rem] py-2.5 px-3 !important;
+}
+
+.rti--tag {
+  @apply flex items-center gap-1 rounded-small bg-default-200 text-default-500 text-sm h-6 pl-3 !important;
+}
+
+.rti--input {
+  @apply flex-1 min-w-[50px] bg-transparent placeholder:text-foreground-500 text-sm h-6 !important;
+}

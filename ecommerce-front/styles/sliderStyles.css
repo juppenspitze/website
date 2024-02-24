@@ -1,0 +1,35 @@
+.featuredSlider .react-multiple-carousel__arrow {
+  @apply max-sm:bottom-[0px] !important
+}
+.react-multiple-carousel__arrow {
+  @apply min-w-[20px] bg-transparent hover:scale-110 z-50 !important
+}
+.react-multiple-carousel__arrow::before {
+  @apply text-foreground text-2xl !important
+}
+.featuredSlider .react-multiple-carousel__arrow::before {
+  @apply text-white !important
+}
+
+.featuredSlider .react-multiple-carousel__arrow--left {
+  @apply left-[40px] !important
+}
+.featuredSlider .react-multiple-carousel__arrow--right {
+  @apply right-[40px] !important
+}
+.react-multiple-carousel__arrow--left {
+  @apply left-0 !important
+}
+.react-multiple-carousel__arrow--right {
+  @apply right-0 !important
+}
+
+.featuredSlider .react-multi-carousel-dot-list  {
+  @apply flex gap-3 bottom-[5px] !important
+}
+.featuredSlider .react-multi-carousel-dot button {
+  @apply w-10 h-[3px] rounded-sm bg-black border-none !important
+}
+.featuredSlider .react-multi-carousel-dot--active button {
+  @apply bg-white !important
+}

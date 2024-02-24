@@ -1,0 +1,12 @@
+.tiles-grid{
+    @apply grid grid-cols-1 sm:grid-cols-3 gap-4;
+}
+.tile{
+    @apply bg-primary-50 p-2 rounded-lg text-gray-400 text-center;
+}
+.tile-number{
+    @apply text-primary text-3xl text-center mt-1 font-bold;
+}
+.tile-desc{
+    @apply text-xs text-gray-400;
+}

@@ -1,0 +1,153 @@
+{
+  "Buttons": {
+    "save": "Save",
+    "saving": "Saving...",
+    "edit": "Edit",
+    "back": "Zuruck",
+    "confirm": "Confirm",
+    "login": "Login",
+    "logout": "Logout",
+    "login_with_google": "Login with Google",
+    "go_to_cart": "Go to cart",
+    "add_to_cart": "Add to cart",
+    "add_to_cart_ext": "Add to {extension} cart",
+    "remove_from_cart": "Remove from cart",
+    "go_to_payment": "Go to payment",
+    "download_sample": "Download sample",
+    "read_more": "Read more",
+    "undo": "Undo",
+    "submit_your_review": "Submit your review",
+    "add_review": "Add a review",
+    "leave_review": "Leave a review",
+    "to_checkout": "To checkout",
+    "clear_cart": "Clear cart"
+  },
+  "Toasts": {
+    "you_are_offline": "You are offline",
+    "check_your_connection": "Check your connection and try again!",
+    "you_are_online": "You are online",
+    "welcome_back": "Welcome back!",
+    "added_to": "{what} added to {where}",
+    "removed_from": "{what} removed from {where}",
+    "added_to_description": "You've added {what} to {where}",
+    "removed_from_description": "You've removed {what} from {where}"
+  },
+  "Search": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "cart": "Cart",
+    "authors": "Authors",
+    "account": "Account",
+    "pages": "Pages",
+    "press": "Press",
+    "search_for_stuff": "Search for stuff",
+    "nothing_found_for": "Nothing found for query '{query}'"
+  },
+
+  "LocaleSwitcher": {
+    "switchLocale": "{locale, select, de {German} en {English} at {Austrian} other {{locale}}}"
+  },
+  "Header": {
+    "all_products": "Alle Produkte",
+    "categories": "Kategorien",
+    "authors": "Autoren:innen",
+    "account": "Konto"
+  },
+  "ExploreSection": {
+    "explore_some_more": "Explore some more",
+    "products": "Products",
+    "authors": "Authors",
+    "categories": "Categories"
+  },
+  "AddressForm": {
+    "account_details": "Account details",
+    "full_name": "Full name",
+    "email": "Email",
+    "invalid_email": "Invalid email",
+    "phone": "Phone",
+    "city": "City",
+    "postal_code": "Postal code",
+    "street_address": "Street address",
+    "select_country": "Select your country",
+    "use_different_billing_address": "Use different billing address",
+    "your_billing_address": "Your billing address",
+    "billing_city": "Billing city",
+    "billing_postal_code": "Billing postal code",
+    "billing_street_address": "Billing street address",
+    "billing_country": "Billing country"
+  },
+  "Account": {
+    "orders": "Orders",
+    "wishlist": "Wishlist",
+    "no_orders": "No orders yet",
+    "wishlist_empty": "Your wishlist is empty",
+    "login_to_add_wishlist": "Login to add products to your wishlist"
+  },
+
+
+  "Products": {
+    "all_products": "All products",
+    "new_arrivals": "New arrivals",
+    "SingleProduct": {
+      "by": "by",
+      "specs": "Specs",
+      "out_of_stock": "Out of stock",
+      "only_left_in_stock": "Only {left} left in stock",
+      "only_electronic": "This product is only available in electronic format.",
+      "also_from_author": "Also from {author}:",
+      "similar_products": "Similar products:"
+    },
+    "Reviews": {
+      "reviews": "Reviews",
+      "all_reviews": "All reviews",
+      "no_reviews": "No reviews yet",
+      "to_leave_review_description": "To leave a review, please log in."
+    }
+  },
+  "Categories": {
+    "show_all": "Show all",
+    "SingleCategory": {
+      "all": "All",
+      "lowest_first": "Price, lowest first",
+      "highest_first": "Price, highest first",
+      "newest_first": "Newest first",
+      "oldest_first": "Oldest first",
+      "no_products_found": "Sorry, no products found"
+    },
+    "CategoryList": {
+      "no_categories": "No categories found"
+    }
+  },
+  "Authors": {
+    "no_authors": "No authors found",
+    "SingleAuthor": {
+      "no_products_yet": "This author has no products yet"
+    }
+  },
+  "Cart": {
+    "your_cart_is_empty": "Your cart is empty",
+    "empty_description": "Pick some stuff for yourself and come back here!",
+    "thanks_for_order": "Thanks for your order!",
+    "thanks_description": "We will email you when your order will be sent.",
+
+    "products": "Products",
+    "shipment_address": "Shipment address",
+    "shipment_method": "Shipment method",
+
+    "Sidebar": {
+      "shopping_cart": "Shopping cart",
+      "nothing_here": "Nothing here yet, keep shopping!",
+      "shipping_not_included": "Shipping costs will be calculated at checkout",
+      "shipping_taxes_not_included": "Shipping costs and taxes will be calculated at checkout",
+      "subtotal": "Subtotal:"
+    },
+    "Final": {
+      "products": "Products",
+      "shipping": "Shipping",
+      "total": "Total",
+      "country_fee": "Country fee",
+      "size_fee": "Size fee"
+    }
+  }
+}

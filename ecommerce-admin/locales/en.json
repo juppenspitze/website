@@ -1,0 +1,306 @@
+{
+  "Buttons": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "delete_property": "Delete property",
+    "delete_vat": "Delete VAT",
+    "save": "Save",
+    "send": "Send",
+    "cancel": "Cancel",
+    "deprecate": "Deprecate",
+    "undeprecate": "Undeprecate",
+    "print": "Print",
+    "download_invoice": "Download invoice",
+    "back": "Back",
+    "email": "Email",
+    "add_new": "Add a new {name, select, email_template {email template} shipment_method {shipment method} other {{name}}}",
+    "show_deprecated": "Show deprecated {name}"
+  },
+
+
+  "LocaleSwitcher": {
+    "switchLocale": "{locale, select, de {German} en {English} at {Austrian} other {{locale}}}"
+  },
+  "DragAndDrop": {
+    "drag_and_drop_or": "Drag & drop or",
+    "select_files": "Select files",
+    "to_upload": "to upload",
+    "uploading": "Uploading...",
+    "reached_maximum": "Reached maximum number of files.",
+    "accepted_file_types": "Accepted file types: {types}"
+  },
+  "RichText": {
+    "rich_description": "Enter some rich text...",
+    "link_description": "To add a link, select the text and paste the link onto it. Double click to check the link."
+  },
+  "TagsInput": {
+    "enter_tags_here": "Enter tags here",
+    "description": "Press enter or comma to add a new tag."
+  },
+  "Nav": {
+    "products": "Products",
+    "categories": "Categories",
+    "orders": "Orders",
+    "authors": "Authors",
+    "settings": "Settings",
+    "close_menu": "Close Menu",
+    "open_menu": "Open Menu"
+  },
+  "Table": {
+    "ColumnNames": {
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "stock": "Stock",
+      "size": "Size",
+      "author": "Author",
+      "actions": "Actions",
+      "parent": "Parent",
+      "state": "State",
+      "date": "Date",
+      "creation_date": "Creation Date",
+      "paid": "Paid",
+      "recipient": "Recipient",
+      "products": "Products",
+      "image": "Image",
+      "google_email": "Google Email",
+      "countries": "Countries",
+      "profiles": "Profiles"
+    },
+    "Empties": {
+      "no_name": "No name",
+      "no_email": "No email",
+      "no_description": "No description",
+      "no_country": "No country",
+      "no_city": "No city",
+      "no_street": "No street",
+      "no_code": "No code",
+      "not_set": "Not set"
+    },
+    "no_data": "No data available",
+    "rows_per_page": "Rows per page",
+    "no_parent_item": "No parent category",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "HomeStats": {
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "orders_today": "orders today",
+    "orders_this_week": "orders this week",
+    "orders_this_month": "orders this month",
+    "today": "Today",
+    "this_week": "This Week",
+    "this_month": "This Month"
+  },
+  "Offline": {
+    "you_are_offline": "You are offline",
+    "check_connection": "Please check your internet connection and try again."
+  },
+
+
+  "Modal": {
+    "delete": "Delete",
+    "delete_description": "Are you sure you want to delete this {name, select, shipment_method {shipment method} shipment_profile {shipment profile} other {{name}}}?",
+    "deprecate": "Deprecate",
+    "deprecate_description": "Are you sure you want to deprecate this {name, select, shipment_method {shipment method} shipment_profile {shipment profile} other {{name}}}?",
+    "edit": "Edit",
+    "add_new": "Add new {name, select, shipment_method {shipment method} other {{name}}}",
+    "refer_to_docs": "For more information refer to the docs.",
+
+    "name": "{name} name",
+    "description": "{name} description",
+    "price": "{name} price",
+    "stock": "{name} stock",
+    "author": "{name} author",
+    "tags": "{name} tags",
+    "parent": "Parent category",
+    "select_properties": "Select properties",
+    "input_properties": "Input properties",
+    "tester": "Tester",
+    "e_version": "E-Version",
+    
+    "category": "Category",
+    "category_deprecated": "The category is deprecated",
+    "author_deprecated": "The author is deprecated",
+    "e_item": "E-Item",
+    "shipment_profile": "Shipment Profile",
+    "dimentions": "(dimentions)",
+
+    "is_electronic": "Is the product ONLY electronic?",
+    "yes": "Yes",
+    "no": "No",
+    "electronic_product_description": "It's only electronic. There is no real product (e.g. hardcover book).",
+    "not_electronic_product_description": "It's not only electronic. A customer can buy a real product.",
+    "file": "{amount, select, 1 {File} other {Files}}",
+    "incorrect_email": "Incorrect email",
+    "generics": "Generics"
+  },
+
+
+  "Login": {
+    "welcome_back": "Welcome back!",
+    "email": "Email",
+    "password": "Password",
+    "your_email": "Your email",
+    "your_password": "Your password",
+    "or": "or",
+    "login_with_google": "Login with Google",
+    "invalid_credentials": "Invalid credentials."
+  },
+  "Orders": {
+    "filter_by_status": "Filter by status",
+
+    "payment_and_shipment_status": "Order payment/shipment status",
+    "shipment_status": "Shipment status",
+    "payment_status": "Payment status",
+    "paid": "Paid",
+    "paid_description": "The money for this order is in you bank account.",
+    "not_paid": "Not paid",
+    "not_paid_description": "The money for this order was not received.",
+    "customer_name": "Customer name",
+    "shipment_address": "Shipment address",
+    "billing_address": "Billing address",
+    "shipment_method": "Shipment method",
+    "email": "Email",
+    "phone_number": "Phone number",
+    "products_ordered": "Products ordered",
+    "ordered_on": "Ordered on",
+    "payment_method": "Payment method",
+
+    "Statuses": {
+      "processing": "Processing",
+      "processing_description": "The order is placed and payed.",
+      "packed": "Packed",
+      "packed_description": "The order is packed and ready to be shipped.",
+      "shipped": "Shipped",
+      "shipped_description": "The order is shipped and on the way to the buyer!"     
+    },
+    "Email": {
+      "reciever": "Reciever",
+      "subject": "Subject",
+      "subject_description": "Write the subject of your email",
+      "message": "Message",
+      "include_invoice": "Include invoice",
+      "send_email_to": "Send email to",
+      "attachments": "Attachments"
+    }
+  },
+  "Categories": {
+    "name": "Category name",
+    "name_placeholder": "Enter category name",
+    "parent_category": "Parent category",
+    "parent_properties_from": "Parent properties from",
+    "category": "category",
+
+    "property_name": "Property name",
+    "values": "Values",
+    "type": "Type",
+
+    "input_properties": "Input properties",
+    "selection_properties": "Selection properties",
+    "select_property_type": "Select a property type",
+    "own_selection_properties": "Own selection properties",
+    "own_input_properties": "Own input properties",
+    "add_selection_property": "Add new own selection property",
+    "add_input_property": "Add new own input property",
+    "vat_placeholder": "Enter VAT percentage",
+    "vat_percentages": "VAT percentages",
+    "percentage": "Percentage",
+    "country": "Country",
+    "select_country": "Select a country",
+    "add_vat": "Add VAT",
+
+    "selection_name_placeholder": "Property name (e.g. color)",
+    "selection_value_placeholder": "Values, comma separated (e.g. red,black)",
+    "input_name_placeholder": "Property name (e.g. ISBN)",
+
+    "described_all_countries": "You described all the existing countries.",
+    "described_all_categries": "You described all the existing categories.",
+
+    "InputTypes": {
+      "text": "Text",
+      "number": "Number",
+      "date": "Date",
+      "textarea": "Texarea",
+      "select": "Select",
+      "checkbox": "Checkbox",
+      "radio": "Radio"
+    }
+  },
+  "Settings": {
+    "admins": "Admins",
+    "admins_description": "Add and remove emails that will be able to access the admin panel and all its functionalities.",
+    "featured": "Featured",
+    "featured_description": "Manage featured products and the order in which they will appear in the slideshow on the home page.",
+    "shipping": "Shipping",
+    "shipping_description": "Manage shipment options and profiles that will be available for customers to choose from during checkout.",
+    "email_templates": "Email templates",
+    "email_templates_description": "Manage email templates that will be sent to customers during their buying experience.",
+    "docs": "Docs",
+    "docs_description": "All sorts of useful stuff about the app :D"
+  },
+  "Featured": {
+    "read_more": "Read more",
+    "add_to_cart": "Add to cart",
+    "mock_description": "Pick a product to feature and see it&apos;s title, description and image here.",
+    "featured_title": "Featured title",
+    "no_image_here": "No image here",
+
+    "select_product": "Select a product",
+    "give_it_description": "Give it a description",
+    "add_background_image": "Add a background image",
+    "character_limit_reached": "Character limit reached.",
+    "all_products_already_featured": "All products are already featured!",
+    "no_featured_yet": "No featured products yet!"
+  },
+  "Shipping": {
+    "countries": "Countries",
+    "create_new_country": "Create a new country",
+    "Profiles": {
+      "shipment_profiles": "Shipment profiles",
+      "create_new_profile": "Create a new profile",
+      "dimentions": "Dimentions",
+      "size_chart": "Size chart",
+
+      "shipment_profile_name": "Shipment profile name",
+      "shipment_profile_name_description": "The name of the shipment profile (e.g. small)",
+      "shipment_profile_description": "Shipment profile description",
+      "shipment_profile_descr_descr": "The description of the shipment profile (e.g. for small items)",
+
+      "weight": "{size, select, min {Min} max {Max} other {}} weight",
+      "weight_description": "The {size} weight of the product in kg.",
+      "width": "{size, select, min {Min} max {Max} other {}} width",
+      "width_description": "The {size} width of the product in cm.",
+      "height": "{size, select, min {Min} max {Max} other {}} height",
+      "height_description": "The {size} height of the product in cm.",
+      "depth": "{size, select, min {Min} max {Max} other {}} depth",
+      "depth_description": "The {size} depth of the product in cm.",
+
+      "sort_the_profiles": "Sort the created profile by size among others.",
+      "sort_description": "They should go from smallest to largest."
+    },
+    "Methods": {
+      "shipment_methods": "Shipment methods",
+
+      "shipment_method_name": "Shipment method name",
+      "shipment_method_name_description": "Name of shipping method (e.g. DHL)",
+      "shipment_method_description": "Shipment method description",
+      "shipment_method_descr_descr": "Description of the shipping method. It will be visible to the customer during the checkout process.",
+
+      "countries": "Countries",
+      "shipment_country": "Shipment country",
+      "base_price": "Base price",
+      "base_price_description": "Base price for this {name}",
+      "described_all_countries": "You described all the existing countries.",
+      "deprecated": "Deprecated",
+
+      "shipment_profiles": "Shipment profiles",
+      "shipment_profile": "Shipment profile",
+      "described_all_profiles": "You described all existing shipping profiles."
+    }
+  },
+  "Docs": {
+    "nothing_here": "Nothing here yet :D"
+  }
+}
